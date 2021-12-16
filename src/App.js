@@ -1,10 +1,15 @@
+import Header from "./components/Header.jsx"
+
 function App() {
     const title = 'Blog Post'
 
     return (
-        <div className="container ">
-            <h1>{title}</h1>
-        </div>
+        <>
+            <Header text="Feedback App"/>
+            <div className="container ">
+                <h1>{title}</h1>
+            </div>
+        </>
     )
 }
 
