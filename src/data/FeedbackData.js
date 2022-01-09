@@ -1,7 +1,7 @@
 const FeedbackData = [
     {
         id: 1,
-        rating: 10,
+        rating: 20,
         text: 'hello'
     },
     {
