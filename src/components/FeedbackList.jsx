@@ -8,17 +8,7 @@ function FeedbackList({feedback, handleDelete}){
         return 'No Feedback Yet'
     }
 
-    // return (
-
-    //     <div className="feedback-list">
-    //         {feedback.map( (item) => (
-    //             <FeedbackItem handleDelete={handleDelete} key={item.id} item={item} />
-    //         ))}
-    //     </div>
-    // )
-
     return (
-
         <div className="feedback-list">
             <AnimatePresence>
                 {feedback.map( (item) => (
